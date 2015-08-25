@@ -1,27 +1,36 @@
 body{
+	width: 100%;
 	background: url('../images/sneaker_mesh_fabric.png') repeat;
+	font: normal 100%/1.5 'Source Sans Pro', sans-serif;
+	color: #474747;
 }
 
+h1,h2,h3,h4,h5,h6,{
+font-family: 'Source Sans Pro', sans-serif; 
+}
 
-#form_box{
+h1 {
+	color: #1c80b3; 
+	font-size: 21px;
+}
+
+h2 {
+	color:rgba(37, 34, 27, 1.0);
+}
+#formBox {
 	margin: auto;
-	width: 400px;
-}
-
-#contact-form{
-	width: 410px;
-	padding: 20px;
+	width: 60%;
+	padding: 1em;
 	background: #fff;
-	-moz-border-radius: 0px 20px 20px 20px;
-    -webkit-border-radius: 0px 20px 20px 20px;
-    -khtml-border-radius: 0px 20px 20px 20px;
     border-radius: 0px 20px 20px 20px;
     border: #1c80b3 5px solid;
 }
 
-#contact-form input {
+ul {
+	list-style-type: none;
 	width:270px; 
-	height:20px; 
+	height:auto;
+	overflow: visible; 
 	border:2px solid #e5e5e5;
 	background:#fff; 
 	padding:2px 0 2px 2px;
@@ -32,7 +41,7 @@ body{
 }
 
 
-#contact-form textarea{
+#formBox textarea{
 	color: #7a7a7a;
 	border: 2px solid #e5e5e5;
 	padding:2px 0 0 2px;
@@ -49,37 +58,10 @@ body{
 	min-height: 120px;
 }
 
-#contact-form #submit{
-	background: url('../images/submit.png') no-repeat transparent;
-	border: 0;
-	cursor: pointer;
-	margin-top: 5px;
-	width: 116px;
-	height: 28px;
-}
-
-span.col{
-	width: 90px;
-	float: left;
-	text-align: right;
-	padding-right: 20px;
-	font-size:14px;
-}
-
-#contact-form p{
+#formBox p{
 	padding-bottom: 10px;
 }
 
-#form-submit{
-	width: 116px;
-	float: right;
-}
-
-.heading{
-	color: #1c80b3; 
-	font-family: Arial, Helvetica, sans-serif; 
-	font-size: 21px;
-}
 
 .errormsg{
 	display: none;
